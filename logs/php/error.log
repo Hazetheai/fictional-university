@@ -1,0 +1,268 @@
+[31-Jul-2018 17:37:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[31-Jul-2018 17:37:42 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
+[31-Jul-2018 18:04:18 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[31-Jul-2018 18:04:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[01-Aug-2018 09:34:12 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[02-Aug-2018 11:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:11:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:12:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:16:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:16:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:17:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_parent_post_id() in /app/public/wp-content/themes/fictional-university-theme/header.php:21
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[02-Aug-2018 11:39:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function hav_posts() in /app/public/wp-content/themes/fictional-university-theme/index.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 16
+[09-Aug-2018 09:08:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function single_auth_title() in /app/public/wp-content/themes/fictional-university-theme/archive.php:11
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 11
+[09-Aug-2018 09:09:39 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 11
+[09-Aug-2018 10:09:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 51
+[09-Aug-2018 18:31:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 22 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/single-event.php(22): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[09-Aug-2018 18:31:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 22 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/single-event.php(22): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[09-Aug-2018 21:15:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 7
+[15-Aug-2018 10:44:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/public/wp-content/themes/fictional-university-theme/functions.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_adjust_queries(Object(WP_Query))
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/class-wp-query.php(1634): do_action_ref_array('pre_get_posts', Array)
+#4 /app/public/wp-includes/class-wp-query.php(3230): WP_Query->get_posts()
+#5 /app/public/wp-includes/class-wp.php(599): WP_Query->query(Array)
+#6 /app/public/wp-includes/class-wp.php(715): WP->query_posts()
+#7 /app/public/wp-includes/functions.php(960): WP->main('')
+#8 /app/public/wp-blog-header.php(16): wp()
+#9 /app/public/index.php(17): require('/app/public/wp-...')
+#10 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[15-Aug-2018 10:47:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[15-Aug-2018 10:47:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[15-Aug-2018 11:15:14 UTC] PHP Parse error:  syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 20
+[15-Aug-2018 12:43:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 33
+[15-Aug-2018 12:43:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 33
+[15-Aug-2018 12:49:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 34
+[15-Aug-2018 13:20:28 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 54
+[15-Aug-2018 13:22:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 52
+[15-Aug-2018 14:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/fictional-university-theme/single-program.php:56
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 56
+[15-Aug-2018 14:53:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /app/public/wp-content/themes/fictional-university-theme/single-program.php:56
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 56
+[15-Aug-2018 16:09:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[15-Aug-2018 16:09:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[15-Aug-2018 16:09:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[15-Aug-2018 16:09:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[15-Aug-2018 16:09:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[15-Aug-2018 16:36:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_photo_uri() in /app/public/wp-content/themes/fictional-university-theme/functions.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/page.php(8): pageBanner(Array)
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 19
+[15-Aug-2018 16:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_photo_uri() in /app/public/wp-content/themes/fictional-university-theme/functions.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/page.php(8): pageBanner(Array)
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 19
+[15-Aug-2018 16:44:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/page.php on line 7 and exactly 1 expected in /app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[15-Aug-2018 18:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function page_Banner() in /app/public/wp-content/themes/fictional-university-theme/archive-event.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 3
+[15-Aug-2018 18:02:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function page_Banner() in /app/public/wp-content/themes/fictional-university-theme/archive-event.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 3
+[15-Aug-2018 18:35:16 UTC] PHP Parse error:  syntax error, unexpected ''template-parts/content-event)' (T_ENCAPSED_AND_WHITESPACE) in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 95
+[15-Aug-2018 20:33:14 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[15-Aug-2018 20:33:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[15-Aug-2018 20:33:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[16-Aug-2018 09:31:50 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 103
+[21-Aug-2018 11:43:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
