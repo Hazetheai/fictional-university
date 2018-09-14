@@ -266,3 +266,67 @@ Stack trace:
 [15-Aug-2018 20:33:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
 [16-Aug-2018 09:31:50 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 103
 [21-Aug-2018 11:43:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[25-Aug-2018 11:39:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[07-Sep-2018 09:15:25 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 107
+[07-Sep-2018 09:15:26 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 107
+[07-Sep-2018 09:15:26 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 107
+[07-Sep-2018 10:51:50 UTC] PHP Parse error:  syntax error, unexpected '$results' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 52
+[07-Sep-2018 10:51:50 UTC] PHP Parse error:  syntax error, unexpected '$results' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 52
+[07-Sep-2018 10:51:51 UTC] PHP Parse error:  syntax error, unexpected '$results' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 52
+[10-Sep-2018 14:01:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/header.php on line 31
+[10-Sep-2018 14:26:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/header.php on line 44
+[10-Sep-2018 14:29:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/header.php on line 46
+[10-Sep-2018 14:42:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_ation() in /app/public/wp-content/themes/fictional-university-theme/functions.php:111
+Stack trace:
+#0 /app/public/wp-settings.php(426): include()
+#1 /app/public/wp-config.php(86): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-login.php(12): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 111
+[10-Sep-2018 14:42:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_ation() in /app/public/wp-content/themes/fictional-university-theme/functions.php:111
+Stack trace:
+#0 /app/public/wp-settings.php(426): include()
+#1 /app/public/wp-config.php(86): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/user-edit.php(10): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 111
+[10-Sep-2018 14:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_ation() in /app/public/wp-content/themes/fictional-university-theme/functions.php:111
+Stack trace:
+#0 /app/public/wp-settings.php(426): include()
+#1 /app/public/wp-config.php(86): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/user-edit.php(10): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 111
+[12-Sep-2018 15:50:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 35
+[12-Sep-2018 15:50:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 35
+[12-Sep-2018 16:04:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[12-Sep-2018 16:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[14-Sep-2018 13:09:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 26
+[14-Sep-2018 15:01:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 24
+[14-Sep-2018 15:03:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 24
+[14-Sep-2018 15:23:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 23

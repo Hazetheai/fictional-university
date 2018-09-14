@@ -19,17 +19,19 @@
  */
 
 // ** MySQL settings ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
-
-/** MySQL database username */
-define( 'DB_USER', 'root' );
-
-/** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
-
-/** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+if (file_exists(dirname(__FILE__) . '/local.php')) {
+	//Local DB Settings
+	define( 'DB_NAME', 'local' );
+	define( 'DB_USER', 'root' );
+	define( 'DB_PASSWORD', 'root' );
+	define( 'DB_HOST', 'localhost' );
+} else {
+	//Live DB settings
+	define( 'DB_NAME', 'jaker438_universitydata' );
+	define( 'DB_USER', 'jaker438_wp' );
+	define( 'DB_PASSWORD', 'ilovemusic12q' );
+	define( 'DB_HOST', 'localhost' );	
+}
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
